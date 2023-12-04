@@ -97,7 +97,7 @@ int main() {
         DisplayAlert(frame, detect_obj, cap);
 
         imshow("Project3", frame);
-        waitKey(20);
+        waitKey(delay);
     }
 
     return 0;
